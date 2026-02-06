@@ -1,0 +1,64 @@
+# Dependencies
+node_modules
+.pnpm-store
+.yarn
+.npm
+
+# Build outputs
+dist
+build
+.next
+out
+*.tsbuildinfo
+
+# Turbo
+.turbo
+
+# Environment files
+.env
+.env.local
+.env.*.local
+*.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE
+.vscode
+.idea
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+*.tmp
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Firebase
+serviceAccountKey.json
+*-firebase-adminsdk-*.json
+firebase-debug.log
+
+# Testing
+coverage
+.nyc_output
+*.lcov
+
+# Debug
+.vscode-test
+
+# Misc
+*.pid
+*.seed
+*.pid.lock
+.cache
+.parcel-cache
