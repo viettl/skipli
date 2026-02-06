@@ -6,6 +6,16 @@
 - pnpm
 - **Environment variables** (check your email for `.env` files)
 
+### Technical Notes
+
+**Notification System:**
+This application uses **email-only** for all notifications (OTP codes, invitations).
+
+**Why no SMS?**
+
+- Twilio blocks Vietnam as free tier.
+- This decision was made in consultation with Ms. Hong but i can not find any appropreate SMS provider, you know - cost effective.
+
 ### Installation
 
 ```bash
@@ -51,8 +61,8 @@ Password: 123123
 ### 1. Instructor Registration
 
 1. Go to the login page
-2. Enter an emai
-3. Check your email for OTP code
+2. Enter your email
+3. Check your email for the OTP code
 4. Enter the code to verify
 5. Your account is automatically created as an instructor
 
